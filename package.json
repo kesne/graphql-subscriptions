@@ -1,15 +1,13 @@
 {
-  "name": "graphql-subscriptions",
+  "name": "graphql-subscriptions-promised",
   "version": "0.2.2",
   "description": "GraphQL subscriptions for node.js",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apollostack/graphql-subscriptions.git"
+    "url": "https://github.com/kesne/graphql-subscriptions.git"
   },
-  "dependencies": {
-    "es6-promise": "^3.2.1"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "graphql": "^0.7.0 || ^0.8.0"
   },

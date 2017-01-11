@@ -1,18 +1,18 @@
 [![npm version](https://badge.fury.io/js/graphql-subscriptions.svg)](https://badge.fury.io/js/graphql-subscriptions) [![GitHub license](https://img.shields.io/github/license/apollostack/graphql-subscriptions.svg)](https://github.com/apollostack/graphql-subscriptions/blob/license/LICENSE)
 
-# graphql-subscriptions
+# graphql-subscriptions-promised
 
 GraphQL subscriptions is a simple npm package that lets you wire up GraphQL with a pubsub system (like Redis) to implement subscriptions in GraphQL.
 
 ### Installation
 
-`npm install graphql-subscriptions`
+`npm install graphql-subscriptions-promised`
 
 
 ### Example usage
 
 ```js
-import { PubSub, SubscriptionManager } from 'graphql-subscriptions';
+import { PubSub, SubscriptionManager } from 'graphql-subscriptions-promised';
 import schema from './schema';
 
 // PubSub can be easily replaced, for example with https://github.com/davidyaha/graphql-redis-subscriptions
@@ -76,6 +76,3 @@ pubsub.publish('newCommentsChannel', {
 // }
 
 ```
-
-
-
